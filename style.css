@@ -18,7 +18,11 @@ a {
 
 .burger {
   height: 66%;
-  width: 11%
+  width: 11%;
+  transition: all .2s ease-in-out;
+}
+.burger:hover { 
+  transform: scale(1.1);
 }
 
 .logo {
@@ -40,6 +44,34 @@ ul {
 
 .nav-link {
   width: 100%;
-  padding-left:11% !important;
   text-align: left !important;
+}
+
+.bot-menu {
+  font-family: 'Cardo', serif;
+  font-size: 16px;
+  color: #734511 !important;
+}
+
+.border-dark {
+  border-color: white !important;
+}
+
+.border {
+  border-color: white !important;
+}
+
+li {
+    transition: background 0.5s ease-in-out;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, white 50%, #2C2C2B 50%);
+    transition: background-position .2s;
+}
+
+li:hover {
+	background-position: 0 100%;
+}
+
+li a:hover {
+  color:white !important;
 }
