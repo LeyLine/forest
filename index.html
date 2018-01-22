@@ -13,47 +13,117 @@
 </head>
 
 <body>
-<div class="container-fluid">
+  <div class="container-fluid">
 
-  <div class="row pt-4">
-    <div class="col">
-      <h1 class="logo pl-3">Lorem Ipsum</h1>
+    <div class="row pt-4">
+      <div class="col">
+        <h1 class="logo pl-3">Lorem Ipsum</h1>
+      </div>
+      <div class="col col-md-4 pt-4">
+        <a onclick="openNav()" href="#" class="d-inline-flex justify-content-end pr-5 menu">
+          <p class="pt-1">Menu</p><img class="burger ml-3" src="images/burger.png"></a>
+      </div>
     </div>
-    <div class="col col-md-4 pt-4">
-      <a href="#" class="d-inline-flex justify-content-end pr-5">
-        <p class="pt-1">Menu</p><img class="burger ml-3" src="images/burger.png"></a>
+
+    <div class="row">
+      <div class="col pt-2 mb-5 pb-5">
+        <hr class="mt-5 ml-2">
+        <h1 class="display-4 pt-2">Dolor Sit Amet, Consectetur</h1>
+        <p class="lead pt-4 mb-5 pb-5">Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut</p>
+      </div>
+    </div>
+
+    <div class="row mt-5 pt-5 justify-content-center mt-5">
+      <ul class="nav justify-content-center bg-white mt-4 nav-fill">
+        <li class="nav-item border-left-0 border-top-0 border-bottom-0 border-right-1">
+          <a class="nav-link active bot-menu" data-toggle="modal" href=".bd-example-modal-lg">Labore <br> Et</a>
+        </li>
+        <li class="nav-item  border-left-0 border-top-0 border-bottom-0 border-right-1 ">
+          <a class="nav-link bot-menu" data-toggle="modal" href=".bd-example-modal-lg">Dolore <br> Magna Aliqua. Ut</a>
+        </li>
+        <li class="nav-item  border-left-0 border-top-0 border-bottom-0 border-right-1 ">
+          <a class="nav-link bot-menu" data-toggle="modal" href=".bd-example-modal-lg">Enim <br> Ad Minim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled bot-menu" data-toggle="modal" href=".bd-example-modal-lg">Veniam <br> Quis Nostrud</a>
+        </li>
+      </ul>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col pt-2 mb-5 pb-5">
-      <hr class="mt-5 ml-2">
-      <h1 class="display-4 pt-2">Dolor Sit Amet, Consectetur</h1>
-      <p class="lead pt-4 mb-5 pb-5">Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut</p>
+
+
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="container-fluid modal-back">
+          <div class="row justify-content-end">
+            <div class="col">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="modal-close please" >&times;</span>
+            </button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+          <ul class="nav justify-content-center bg-white mt-4 nav-fill">
+            <li class="nav-item border-left-0 border-top-0 border-bottom-0 border-right-1">
+              <a class="nav-link active bot-menu" data-toggle="modal" href=".bd-example-modal-lg">Labore <br> Et</a>
+            </li>
+            <li class="nav-item  border-left-0 border-top-0 border-bottom-0 border-right-1 ">
+              <a class="nav-link bot-menu" data-toggle="modal" href=".bd-example-modal-lg">Dolore <br> Magna Aliqua. Ut</a>
+            </li>
+            <li class="nav-item  border-left-0 border-top-0 border-bottom-0 border-right-1 ">
+              <a class="nav-link bot-menu" data-toggle="modal" href=".bd-example-modal-lg">Enim <br> Ad Minim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled bot-menu" data-toggle="modal" href=".bd-example-modal-lg">Veniam <br> Quis Nostrud</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col pt-2">
+            <hr class="mt-5 ml-2">
+            <h1 class="display-4 pt-2 modal-text">Exercitation Ullamco Laboris Nisi</h1>
+            <p class="lead pt-4 modal-text">Ut Aliquip Ex Ea Commodo Consequat. Duis Aute</p>
+          </div>
+        </div>
+        <div class="row mb-5 pb-2">
+          <div class="col text-center">
+            <img class="winery" src="images/winery.jpg" alt="Scenic Winery Shot">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3 class="text-center modal-text mb-5">Irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</h3>
+          </div>
+        </div>
+        <div class="row pb-5">
+          <div class="col">
+            <p class="modal-para text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col">
+            <p class="modal-para text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="row mt-5 pt-5 justify-content-center mt-5">
-     <ul class="nav justify-content-center bg-white mt-4 nav-fill">
-      <li class="nav-item border-left-0 border-top-0 border-bottom-0 border-right-1">
-        <a class="nav-link active bot-menu" href="#">Labore <br> Et</a>
-      </li>
-      <li class="nav-item  border-left-0 border-top-0 border-bottom-0 border-right-1 ">
-        <a class="nav-link bot-menu" href="#">Dolore <br> Magna Aliqua. Ut</a>
-      </li>
-      <li class="nav-item  border-left-0 border-top-0 border-bottom-0 border-right-1 ">
-        <a class="nav-link bot-menu" href="#">Enim <br> Ad Minim</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled bot-menu" href="#">Veniam <br> Quis Nostrud</a>
-      </li>
-    </ul>
-  </div>
-</div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
 
 </html>
